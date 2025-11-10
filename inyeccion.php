@@ -103,7 +103,7 @@ if ($db_connection) {
 <body>
     <div class="container">
         <div class="header">
-            <h1>De La Rosca</h1>
+            <h1>De La Rosca - Inyeccion</h1>
             <p>Selecciona una vista o tabla para ver sus registros.</p>
         </div>
         <div class="status <?php
