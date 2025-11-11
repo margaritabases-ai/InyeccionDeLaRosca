@@ -26,10 +26,10 @@ $mensaje_conexion = "";
 
 // Para un ejemplo simple, ponemos los datos de conexión directamente aquí.
 // (Recuerda cambiarlos por los de tu base de datos)
-$host = "localhost"; // O la IP de tu servidor
-$dbname = "mi_base_de_datos";
-$user = "mi_usuario";
-$pass = "mi_contraseña";
+$host = "ep-silent-unit-adsblxff-pooler.c-2.us-east-1.aws.neon.tech"; // O la IP de tu servidor
+$dbname = "neondb";
+$user = "neondb_owner";
+$pass = "npg_kWRJdx7B9shI";
 
 $connection_string = "host={$host} dbname={$dbname} user={$user} password={$pass} sslmode=require";
 $db_connection = pg_connect($connection_string);
